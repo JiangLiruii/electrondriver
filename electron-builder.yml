@@ -1,0 +1,35 @@
+appId: com.example.app            
+directories:                      
+  output: dist                    
+  buildResources: build           
+copyright: Copyright © 2020 Lorry 
+productName: ExampleApp           
+compression: store      
+nsis:
+  allowToChangeInstallationDirectory: true
+  oneClick: false
+  menuCategory: true
+  include: ./build/installer.nsh
+  allowElevation: true
+  perMachine: true
+win:
+  target: nsis
+extraFiles:
+  - ./resources         
+mac:
+  target:
+    - dmg
+  icon: ./icon.icns
+dmg:
+  contents:
+    - x: 130
+      y: 50
+      type: dir
+      name: Driver
+      path: ./Resources/drivers/mac
+    - x: 130
+      y: 210
+    - x: 400
+      y: 210
+      type: link
+      path: /Applications
