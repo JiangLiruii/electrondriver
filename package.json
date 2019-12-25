@@ -1,0 +1,13 @@
+{
+  "name": "electrondriver",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^7.1.7",
+    "electron-builder": "^21.2.0"
+  },
+  "scripts": {
+    "build": "electron-builder"
+  }
+}
