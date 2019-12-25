@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "main.js",
   "license": "MIT",
+  "author": {
+    "name": "lorry",
+    "email": "535904200@qq.com"
+  },
   "devDependencies": {
     "electron": "^7.1.7",
     "electron-builder": "^21.2.0"
