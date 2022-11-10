@@ -8,7 +8,7 @@
     "email": "535904200@qq.com"
   },
   "devDependencies": {
-    "electron": "^7.1.7",
+    "electron": "^18.3.7",
     "electron-builder": "^21.2.0"
   },
   "scripts": {
